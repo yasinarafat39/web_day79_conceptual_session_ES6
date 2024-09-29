@@ -17,5 +17,6 @@ const student = {
     subject: "BBS"
 }
 
-const yasin = {...student}
+const yasin = {...student};
+yasin.name = "Yasin";
 console.log(yasin);
