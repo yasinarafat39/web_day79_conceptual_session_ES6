@@ -8,3 +8,14 @@ console.log(arr2);
 
 arr1.push("Array 1")
 console.log(arr1);
+
+
+//  object
+const student = {
+    id: 2,
+    age: 21,
+    subject: "BBS"
+}
+
+const yasin = {...student}
+console.log(yasin);
